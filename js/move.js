@@ -4,8 +4,7 @@ homeIn =
 <br />
 | W E L C O M E |
 <br /><br /><br />
-student // designer // artist // dancer
-<br />
+
 `;
 
 var biograph;
@@ -36,7 +35,7 @@ var quotation;
 function about()
 {
   $(".socialbar").fadeOut();
-
+  $("#attributes").fadeOut();
   $("#quote").fadeOut(function()
   {
     $(this).text("About Me").fadeIn(200);
@@ -63,6 +62,7 @@ function home()
   // document.getElementById('bio').innerHTML.fadeIn(200) = 'Aye Lit';
      document.getElementById("bio").innerHTML = homeIn;
      $("#bio").fadeIn(200);
+     $("#attributes").fadeIn(200);
      $(".socialbar").fadeIn(200);
 });
 
@@ -71,7 +71,7 @@ function home()
 function contact()
 {
   $(".socialbar").fadeOut(100);
-
+  $("#attributes").fadeOut();
   $("#quote").fadeOut(function()
   {
     $(this).text("Contacts").fadeIn(200);

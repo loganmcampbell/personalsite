@@ -6,7 +6,10 @@ content: none;
 html, body{
   width:100%;
   padding: 0;
-margin: 0;
+  margin: auto 0;
+  position: relative;
+  top:10%;
+  bottom: 5%;
 }
 
 html
@@ -24,12 +27,17 @@ html
   text-align: center;
 }
 
+#attributes
+{
+  font-size: 11px;
+}
+
 #picture
 {
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 10%;
   margin: 0 auto;
-  /* border-radius: 45%; */
+  border-radius: 45%;
   margin-left: auto;
   margin-right: auto;
 
@@ -84,7 +92,7 @@ body
 
 .textbox
 {
-  width: 25%;
+  width: 20%;
   height: 45%;
   margin-top: 2%;
   text-align: center;
@@ -111,7 +119,7 @@ body
 .name:hover
 {
   color:white;
-  cursor: none;
+  /* cursor: none; */
 }
 
 .navbar
@@ -124,7 +132,7 @@ body
   cursor: default;
   text-align: center;
   color: gray;
-  font-size: 10px;
+  font-size: 11px;
   font-style: italic;
   z-index: 7;
 /* box display */
