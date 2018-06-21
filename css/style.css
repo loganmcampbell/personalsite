@@ -7,9 +7,12 @@ html, body{
   width:100%;
   padding: 0;
   margin: auto 0;
-  position: relative;
+  position: absolute;
   top:10%;
   bottom: 5%;
+
+  text-align: center;
+
 }
 
 html
@@ -50,6 +53,16 @@ transform-origin: 0 100%;
 border-radius: 20px;
 overflow: hidden;
 
+filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+filter: gray; /* IE5+ */
+-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+-webkit-transition: all .5s ease-in-out;
+
+}
+#picture:hover
+{
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 /* #myVideo
@@ -71,7 +84,9 @@ overflow: hidden;
 
 hr
 {
-  width: 20%;
+  /* width: 20%; */
+  max-width: 30%;
+  min-width: 30%;
   margin: auto;
   cursor: default;
 }
@@ -92,19 +107,21 @@ body
 
 .textbox
 {
-  width: 20%;
-  height: 45%;
+  /* width: 20%;
+  height: 45%; */
   margin-top: 2%;
   text-align: center;
   color: gray;
   word-spacing: 3px;
   cursor: default;
   margin: 0 auto;
+  max-width: 50%;
 
 }
 .name
 {
-  cursor: none;
+  /* cursor: none; */
+  cursor: default;
   margin: 0 auto;
   width: auto;
   height: 20px;
@@ -135,6 +152,8 @@ body
   font-size: 11px;
   font-style: italic;
   z-index: 7;
+  padding-top: 1.5%;
+
 /* box display */
   /* border: 1px solid;
   border-color: gray; */
@@ -195,7 +214,7 @@ a:hover
 {
   cursor: pointer;
   width: 100%;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 
 }
 

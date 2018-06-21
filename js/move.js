@@ -18,7 +18,7 @@ As for now, I'm studying computer science to specialize in computer hardware and
 I'm also working at a restaurant for about 4 years, learning customer service, prioritization, time-management, and multitasking.
 <br />
 <br/>
-My hobbies consists of digital editing, designing, programming, experimenting, dancing, social media, gaming and the internet.
+My hobbies consists of digital editing, designing, programming, experimenting, tumbling, dancing, social media, gaming and the internet.
 
 
 
