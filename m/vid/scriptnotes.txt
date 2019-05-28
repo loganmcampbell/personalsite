@@ -1,0 +1,16 @@
+GO TO FILE DIRECTORY WITH CONTAINING MP4's
+install ffmpeg:
+
+sudo apt install ffmpeg
+
+then create a script to:
+
+COMPRESS MP4's:
+
+	for file in ./*.mp4; do ffmpeg -i $file -vcodec h264 -acodec mp3 output/$file; done
+
+MP4 TO WEBM:
+	for file in ./*.mp4; do ffmpeg -i $file -vcodec libvpx -acodec libvorbis "${f%.mp4}".webm; done
+
+MP4 TO SCALED MP4:
+	ffor file in *.mp4; do ffmpeg -i $file -filter:v scale=720:1 -c:a copy output/$file; done

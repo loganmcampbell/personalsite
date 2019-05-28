@@ -38,10 +38,6 @@ overflow: hidden;
 
 }
 
-#myVideo
-{
-  display: none;
-}
 
 /* .overlay
 {
@@ -66,7 +62,8 @@ overflow: hidden;
 hr
 {
   /* width: 500px; */
-  width: 50%;
+  max-width: 80%;
+  min-width: 60%;
   margin: auto;
   cursor: default;
 }
@@ -96,7 +93,7 @@ body
 
 .textbox
 {
-  width: 100%;
+  width: 80%;
   height: 100%;
   position: relative;
   margin: 0 auto;
@@ -162,6 +159,7 @@ body
   font-size: 30px;
   font-style: italic;
   z-index: 7;
+  padding-top:1%;
 }
 
 p
@@ -217,8 +215,8 @@ a:hover
 {
   cursor: pointer;
   margin: auto;
-  margin-top: 10%;
-  width: 50%;
+  margin-top: .5%;
+  width: 70%;
   height: 30%;
 
 }
@@ -229,6 +227,7 @@ a:hover
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all .5s ease-in-out;
+
 }
 
 #social:hover {

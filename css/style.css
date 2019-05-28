@@ -9,8 +9,8 @@ html, body{
   margin: auto 0;
   position: absolute;
   top:10%;
-  bottom: 5%;
-
+  /* bottom: 5%; */
+  background: black;
   text-align: center;
 
 }
@@ -26,24 +26,37 @@ html
 {
   margin-left: auto;
   margin-right: auto;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+
 }
 
-#attributes
+
+
+.attributes
 {
   font-size: 11px;
+}
+#attributes:hover
+{
+  color:white;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
 }
 
 #picture
 {
-  width: 15%;
-  height: 10%;
+  width: 20%;
+  /* height: 10%; */
   margin: 0 auto;
   border-radius: 45%;
   margin-left: auto;
   margin-right: auto;
-
+  background-color: black;
 /* Rotate Origin */
 -webkit-transform-origin: 0 100%;
 -moz-transform-origin: 0 100%;
@@ -54,7 +67,7 @@ border-radius: 20px;
 overflow: hidden;
 
 filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-filter: gray; /* IE5+ */
+filter: grey; /* IE5+ */
 -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
 -webkit-transition: all .5s ease-in-out;
 
@@ -97,6 +110,7 @@ body
   color: white;
   height: 100%;
   background-color: black;
+  background: black;
 }
 
 .named
@@ -162,6 +176,7 @@ body
 p
 {
   text-align: center;
+  background: black;
 }
 
 td
@@ -215,7 +230,6 @@ a:hover
   cursor: pointer;
   width: 100%;
   /* margin-top: 2%; */
-
 }
 
 #social {
@@ -239,3 +253,9 @@ a:hover
 .loader__dot:nth-child(3) { animation-delay: 500ms }
 
 /*  */
+
+#projectpic
+{
+  max-width: 75%;
+  max-height: 75%;
+}

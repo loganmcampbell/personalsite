@@ -1,160 +1,176 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="shortcut icon" type = "image/png" href="/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
   <title>logan m campbell</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
   <!-- library -->
-<script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
 
-<!-- created external files -->
-<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+  <!-- created external files -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="js/typewrite.js"> </script>
+  <script type="text/javascript" src="js/projects.js"> </script>
+  <script type="text/javascript" src="js/design.js"> </script>
+  <script type="text/javascript" src="js/art.js"> </script>
+  <script type="text/javascript" src="js/activity.js"> </script>
+  <script type="text/javascript" src="js/education.js"> </script>
 
-<script src="js/typewrite.js"></script>
-<script type="text/javascript" src="js/javascript.js"></script>
-<script src="js/move.js"></script>
-
+  <script type="text/javascript" src="js/load.js"> </script>
+  <script type="text/javascript" src="js/menu.js"> </script>
+  <script type="text/javascript" src="js/rotate.js"> </script>
+  <!-- loads blackbackground -->
+  <style type="text/css">
+    body {
+      background-color: #000
+    }
+  </style>
 </head>
-<!-- <div class = "whole" > -->
-
-  <div class ="bg" onload = "intro()">
-
-  <!-- <video class = "myVideo" autoplay muted loop id="myVideo">
-    <source src="css/3d.mp4" type = "video/mp4" />
-  </video> -->
-
-    <!-- <div class = "overlay"> -->
-
-              <div class = "mobilePic" >
-            <img id = "picture" src="css/front.jpg" display = "none" />
-
-              </div>
-      <div  class = "name" align = center>
-        <p id ="named">
-        </p>
-      </div>
-
-      <body onload = "setTimeout(typeWriter, 3500)">
 
 
 
-          <div class = "navbar">
-            <table id = "centertable">
-              <td>
-                <a class = "home" onclick = "home()"> home</a>
-              </td>
-              <td>
-                <a class = "about" onclick="about()"> about</a>
-             </td>
-              <td>
-                <a class = "contact" onclick = "contact()"> contact</a>
-              </td>
-              <td>
-                <a class = "projects"> projects</a>
-              </td>
-              <td>
-                  <!-- "m/info/loganmcampbell.pdf"> -->
-                <a href = "m/info/loganmcampbell.pdf" > resume</a>
-              </td>
-
-            </table>
-          </div>
-          <hr />
-          <div class = "textbox">
-            <h1 id = "quote">"Learning is not a race. It's a walk into discovery..."</h1>
-              <p id = "bio">
-                <br />
-                | W E L C O M E |
-                <br /><br /><br />
-
-                <p id = "attributes">
-                  student // designer // artist // athlete
-                </p>
+<div class="bg" onload="intro()">
 
 
-                <br />
-              </p>
-          </div>
-
-          <div class = "socialbar" align = center>
-          <table cellspacing = "10">
-              <td>
-                <a href = "https://www.facebook.com/logan.m.campbell">
-                 <img id = "social"src = "m/icons/color/facebookcolor.png"/>
-               </a>
-              </td>
-              <td>
-                <a href = "https://www.github.com/loganmcampbell">
-                   <img id = "social" src = "m/icons/color/githubcolor.png"/>
-                 </a>
-              </td>
-              <td>
-                <a href = "https://www.snapchat.com/add/loganxcampbell">
-                 <img id = "social" src = "m/icons/color/snapchatcolor.png"/>
-                 </a>
-              </td>
-              <td>
-                <a href = "https://twitter.com/loganmcampbell">
-                 <img id = "social" src = "m/icons/color/twittercolor.png"/>
-               </a>
-              </td>
-              <td>
-                <a href = "https://www.tumblr.com/blog/loganmcampbell">
-                 <img  id = "social" src = "m/icons/color/tumblrcolor.png"/>
-               </a>
-              </td>
-              <td>
-                <a href = "https://www.instagram.com/loganmcampbell">
-                 <img id = "social" src = "m/icons/color/instagramcolor.png"/>
-               </a>
-             </td>
-<!-- could code out -->
-              <td>
-                <a href = "https://www.reddit.com/user/loganmcampbell/">
-                 <img id = "social" src = "m/icons/color/redditcolor.png" />
-               </a>
-              </td>
-
-              <td>
-                <a href = "https://www.pinterest.com/loganxcampbell/">
-                 <img id = "social" src = "m/icons/color/pinterestcolor.png" />
-               </a>
-              </td>
-
-              <td>
-                <a href = "https://www.quora.com/profile/Logan-Campbell-2">
-                 <img id = "social" src = "m/icons/color/quoracolor.png" />
-               </a>
-              </td>
-<!-- could code out -->
-              <td>
-                <a href = "https://soundcloud.com/loganmcampbell">
-                 <img id = "social" src = "m/icons/color/soundcloudcolor.png" />
-               </a>
-              </td>
-              <td>
-                <a href = "https://www.linkedin.com/in/loganmcampbell">
-                <img id = "social" src = "m/icons/color/linkedincolor.png" />
-              </a>
-              </td>
-              <td>
-                <a href = "https://drive.google.com/open?id=1piBwcHY9GXyec-UUl_SPjLEpy_ooGLEE">
-                <img id = "social" src = "m/icons/color/drivecolor.png"/>
-                </a>
-              </td>
-          </table>
-
-          </div>
-
-
-
-
-
-
-        </body>
-    <!-- </div> -->
-
+  <div class="mobilePic">
+    <img id="picture" src="" display="none" />
   </div>
+
+
+
+  <div class="name" align=center>
+    <p id="named">
+    </p>
+  </div>
+
+  <body onload="setTimeout(typeWriter, 3500)">
+
+    <div class="navbar" style="visibility:hidden;">
+      <table id="centertable">
+        <td>
+          <a class="home" onclick="home()"> home</a>
+        </td>
+        <td>
+          <a class="about" onclick="about()"> about</a>
+        </td>
+        <td>
+          <a class="contact" onclick="contact()"> contact</a>
+        </td>
+        <td>
+          <a class="projects" onclick="projects()"> projects</a>
+        </td>
+        <!-- <td>
+          <a class="work" onclick="work()"> work </a>
+        </td> -->
+        <td>
+          <a href="m/info/loganmcampbellresume.pdf"> resume</a>
+        </td>
+
+        <td>
+          <a href="m/info/loganmcampbellcv.pdf"> cv </a>
+        </td>
+
+
+
+
+
+      </table>
+    </div>
+    <hr class="bar" style="visibility:hidden;" />
+    <div class="textbox">
+      <h1 id="quote"></h1>
+      <p id="bio">
+        <!-- <br />
+                | W E L C O M E |
+                <br /><br /><br /> -->
+        <div class="attributes" style="visibility:hidden;">
+          <!-- <a class="work" onclick="work()"> work </a> -->
+          <a class="education" onclick="education()">student</a> //
+          <a class="design" onclick="design()"> designer</a> //
+          <a class="art" onclick="art()"> artist</a> //
+          <a class="activity" onclick="activity()">athlete</a>
+        </div>
+
+
+        <br />
+      </p>
+    </div>
+
+    <div class="socialbar" align=center style="visibility:hidden;">
+      <table cellspacing="10">
+        <td>
+          <a href="https://www.facebook.com/logan.m.campbell">
+            <img id="social" src="m/icons/color/facebookcolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://www.github.com/loganmcampbell">
+            <img id="social" src="m/icons/color/githubcolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://www.snapchat.com/add/loganxcampbell">
+            <img id="social" src="m/icons/color/snapchatcolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://twitter.com/loganmcampbell">
+            <img id="social" src="m/icons/color/twittercolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://www.tumblr.com/blog/loganmcampbell">
+            <img id="social" src="m/icons/color/tumblrcolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/loganmcampbell">
+            <img id="social" src="m/icons/color/instagramcolor.png" />
+          </a>
+        </td>
+        <!-- could code out -->
+        <td>
+          <a href="https://www.reddit.com/user/loganmcampbell/">
+            <img id="social" src="m/icons/color/redditcolor.png" />
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.pinterest.com/loganxcampbell/">
+            <img id="social" src="m/icons/color/pinterestcolor.png" />
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.quora.com/profile/Logan-Campbell-2">
+            <img id="social" src="m/icons/color/quoracolor.png" />
+          </a>
+        </td>
+        <!-- could code out -->
+        <td>
+          <a href="https://soundcloud.com/loganmcampbell">
+            <img id="social" src="m/icons/color/soundcloudcolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://www.linkedin.com/in/loganmcampbell">
+            <img id="social" src="m/icons/color/linkedincolor.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://drive.google.com/drive/u/1/my-drive">
+            <img id="social" src="m/icons/color/drivecolor.png" />
+          </a>
+        </td>
+      </table>
+    </div>
+  </body>
+  <!-- </div> -->
+
+</div>
 
 <!-- </div> -->
 
